@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# A Bash script that displays a list of all running processes with hierarchy
+# Display all processes with user, PID, CPU/memory usage, TTY, state, start time, time, command, and hierarchy
 
-ps -ef --forest
+ps -e f
