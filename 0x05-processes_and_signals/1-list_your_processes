@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Bash script that displays a list of all running processes with hierarchy
+
+ps -ef --forest
