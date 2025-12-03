@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Display all processes with user, PID, CPU/memory usage, TTY, state, start time, time, command, and hierarchy
+# Display a detailed list of all processes with hierarchy
 
-ps -e f
+ps -ef --forest
