@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Infinite loop that reacts to SIGTERM with a custom message
+# Infinite loop printing a message and handling SIGTERM signal
 
 trap 'echo "I am invincible!!!"' SIGTERM
 
